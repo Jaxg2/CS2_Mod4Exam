@@ -4,12 +4,13 @@
 #include "Shape.h"
 
 class Circle :  public Shape
-{
+{	
 private:
 
 public:
-	Circle();
-
+	Circle(string innerShape);
+	virtual string describe();
+	using Shape::Shape;
 };
 
 #endif

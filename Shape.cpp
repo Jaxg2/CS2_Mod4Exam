@@ -11,7 +11,7 @@ string Shape::getName()
 	return name;
 }
 
-int Shape::getinnerShape()
+string Shape::getinnerShape()
 {
 	return innerShape;
 }

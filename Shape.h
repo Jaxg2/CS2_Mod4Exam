@@ -6,14 +6,14 @@ using namespace std;
 
 class Shape
 {
-private:
+protected:
 	string name;
-	int innerShape;
+	string innerShape;
 
 public:
 	Shape();
 	string getName();
-	int getinnerShape();
+	string getinnerShape();
 	virtual string describe() = 0;
 };
 
